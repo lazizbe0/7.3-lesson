@@ -1,20 +1,11 @@
-body{
-    color: #f2f2f2;
-    background-color: red;
-    display: grid;
-    transition: all;
-    
-}
-h1{
-    color: #000;
-}
-.nav{
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    &__list{
-     background-color: red;   
-    }
-    &__link{
-        color: rebeccapurple;
-    }
+}
+.container{
+    max-width: 1080px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
